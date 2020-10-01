@@ -1,0 +1,48 @@
+.navbar img {
+	width: 85px;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	position: fixed;
+	width: 100%;
+	background: black;
+	top: 0;
+}
+
+.navbar__left {
+	display: flex;
+	align-items: center;
+}
+.navbar__leftTabs {
+	display: flex;
+	height: 40px;
+	justify-content: center;
+	width: 165px;
+	align-items: center;
+}
+
+.navbar__right {
+	margin-right: 20px;
+
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.navbar__loginButton {
+	color: #00adf0;
+	font-size: 15px;
+}
+
+.navbar__leftHeader {
+	display: flex;
+}
+
+.navbar__tabs {
+	flex: 1;
+	cursor: pointer;
+	font-size: 12px;
+}

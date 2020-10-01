@@ -1,0 +1,66 @@
+.trackorder__itemsList {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 100%;
+}
+
+.trackorder__items {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	margin-top: 15px;
+}
+
+.trackorder__imgWrapper {
+	max-width: 115px;
+	margin: 10px;
+	flex: 1;
+}
+
+.trackorder__listName {
+	font-weight: bold;
+	margin: 0 10px;
+	flex: 1;
+}
+
+.trackorder__totalAmt {
+	font-size: x-large;
+	background: #03a9f4;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+.trackorder__status {
+	margin: auto;
+	padding: 10px;
+	border-radius: 11px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.trackorder__listPrice {
+	font-size: larger;
+	flex: 1;
+}
+
+.trackorder__heading {
+	font-size: xx-large;
+	font-variant-caps: petite-caps;
+	margin: 25px 0;
+}
+
+.trackorder {
+	margin-top: 70px;
+}
+.trackorder__listItem {
+	margin-bottom: 15px;
+	padding: 10px;
+	background: #242424;
+}
+.trackorder__status.deliverd__status {
+	background: green;
+}
+.trackorder__status.pending__status {
+	background: red;
+}

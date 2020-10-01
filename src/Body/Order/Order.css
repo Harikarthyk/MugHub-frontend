@@ -1,0 +1,60 @@
+.order__title {
+	font-size: xx-large;
+	font-variant-caps: small-caps;
+	font-feature-settings: '';
+}
+.order {
+	margin: auto;
+	margin-top: 61px;
+	margin-bottom: 30px;
+	background: #1f1d1d;
+	width: 90%;
+	padding: 11px;
+	border-radius: 11px;
+}
+.order__listItem {
+	display: flex;
+	justify-content: center;
+	font-size: larger;
+	margin-top: 15px;
+}
+
+.order__listIndex {
+	margin-right: 15px;
+}
+.order__total {
+	font-size: unset;
+	padding: 10px;
+	background: #03a9f4;
+	margin: 20px 0px;
+}
+
+.order__listName {
+	margin-right: 15px;
+	font-weight: bolder;
+}
+.order__placeButton {
+	padding: 14px;
+	display: flex;
+	justify-content: center;
+	background-color: #ff9800;
+	width: fit-content;
+	margin: auto;
+	border-radius: 11px;
+	color: black;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.order__addressDistrict {
+	font-size: larger;
+	margin-bottom: 10px;
+}
+
+.order__addressLine1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: larger;
+	margin: 20px 0;
+}

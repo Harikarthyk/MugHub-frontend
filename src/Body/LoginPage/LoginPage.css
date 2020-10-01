@@ -1,0 +1,86 @@
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.login__Wrapper {
+	background-color: #000;
+	height: 100%;
+}
+
+.login__Title {
+	color: #fff;
+	padding: 20px 0px;
+	font-weight: bold;
+}
+
+.login__BodyTitle {
+	color: #fff;
+	padding: 20px 0px;
+}
+
+.login__BodyWrapper {
+	border: solid 1px #fff;
+	margin: 0 auto;
+	max-width: 300px;
+	box-shadow: 0px -3px 1px 5px #252525;
+}
+
+.login__BodyCont {
+	padding-bottom: 20px;
+}
+
+input.login__Input {
+	height: 40px;
+	width: 86%;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	padding: 0px 15px;
+	background-color: grey;
+	color: #000;
+}
+
+button.login__LoginBtn {
+	width: 85%;
+	height: 40px;
+	background-color: orange;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	margin: 20px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+button.login__RegBtn {
+	width: 180px;
+	height: 40px;
+	background-color: #000;
+	cursor: pointer;
+	border: solid 1px #fff;
+	color: #fff;
+	margin: 20px;
+	font-weight: bold;
+	width: 85%;
+	border-radius: 4px;
+}
+
+.login__OrText {
+	color: #fff;
+}
+
+input::placeholder {
+	color: #000;
+	font-weight: bold;
+	opacity: 1;
+}
+.login__header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 35px 0 15px 0;
+}
+
+.login__header img {
+	width: 75px;
+}
